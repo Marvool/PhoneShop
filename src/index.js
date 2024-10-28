@@ -11,6 +11,7 @@ app.set("views", join(__dirname,'views'))
 app.use(indexRouter)
 
 app.use(express.static(join(__dirname,'public')))
+
 //C:\Users\anton\Downloads\CurriculumWeb\src\views
 
 app.set('view engine', 'ejs')

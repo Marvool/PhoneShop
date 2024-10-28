@@ -12,8 +12,8 @@ const config={
     }
 }
 
-async function Conectar(params) {
-    const client= new Client(config)
+export async function Conectar(params) {
+    const cliente= new Client(config)
     try{
         await cliente.connect()
         console.log("Conectado a la base de datos :D")
