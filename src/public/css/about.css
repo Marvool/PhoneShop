@@ -1,0 +1,115 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #66aabb; /* Texto gris claro */
+  }
+  
+  /* Navegación */
+  nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #44c9eb;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+
+  /* Títulos */
+.about-title, .studies-title, .idiomas-ps-title {
+    font-size: 1.8em;
+    font-size: 30px;
+    font-weight: 700;
+    color: #44c9eb; 
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+  /* Sobre Mi */
+.about-me {
+    padding: 20px;
+    background-color: #1A1A1A; 
+    color: #44c9eb; 
+    text-align: center;
+
+  }
+
+  h1 {
+    font-size: 2em;
+    color: #44c9eb; /* Dorado para resaltar */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+  }
+
+  .about-mee, .studies-com, .idiomas-ps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    max-width: 1700px; /* Ajuste de ancho máximo */
+    margin: 30px auto; /* Centra y agrega espacio vertical */
+    border-radius: 8px;
+    background: linear-gradient(to bottom, #3a3a3a, #000000); /* Fondo en gradiente */
+  }
+  
+  .about-mee {
+    color: #44c9eb;
+  }
+
+  /* Imágenes */
+.about-image, .studies-image, .idiomas-ps-image {
+    width: 100%;
+    max-width: 400px; /* Tamaño ajustado */
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 0 auto;
+  }
+  
+  .about-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+
+}
+  
+.studies-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+
+}
+  
+.idiomas-ps-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+
+    
+  }
+
+  /* Descripciones */
+.about-description, .studies-description, .idiomas-ps-description {
+    font-size: 1em;
+    line-height: 1.6;
+    font-weight: 300;
+    font-size: 25px;
+    color: #44c9eb;
+    max-width: 1200px;
+    margin: 20px;
+    text-align: justify;
+  }

@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/index.css"/>
 </head>
 <body>
-    <h1>Hola</h1>
-    <h2>Soy Antonio :D</h2>
+    <%- include('partials/navigation') %>
+    <h2>Hola</h2>
+    <p>Soy Antonio</p>
+    <%- include('partials/footer') %>
 </body>
 </html>

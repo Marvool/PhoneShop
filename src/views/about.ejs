@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="/css/about.css"/>
+</head>
+<body>
+    <!-- Navegación -->
+    <%- include('partials/navigation') %>
+    <!-- Sobre Mi -->
+    <section class="about-me">
+        <div class="breadcrumb">
+        </div>
+        <h1>Mi historia</h1>
+    </section>
+    
+    <!-- Sección Historia -->
+    <section class="about-mee">
+        <div class="about-text">
+            <div class="about-title">Sobre Mi:</div>
+            <div class="about-description">
+                Buenas, mi nombre es Antonio Aarón Sabas Sáenz, tengo 17 años, y esto es un poco sobre cómo soy y mi historia. Lo primero que puedo decir es que me siento orgulloso de mí mismo, ya que aún soy estudiante del colegio San Andrés y ya he aprendido mucho sobre programación (gracias a mi profe Leonardo Palomino). Espero que en el futuro pueda seguir estudiando y aprendiendo más sobre programación en la universidad y con el entorno que me rodea, es decir, con mis amistades.
+            </div>
+        </div>
+        <img src="/img/myface.jpg" alt="Imagen de Compromiso" class="about-image" />
+    </section>
+
+    <!-- Sección Estudios -->
+    <section class="studies-com">
+        <img src="/img/upc.jpg" alt="Imagen de Historia" class="studies-image" />
+        <div class="studies-text">
+            <div class="studies-title">Estudios:</div>
+            <div class="studies-description">
+                Como mencioné antes, sigo en el colegio, pero actualmente estoy llevando cursos en la UPC, ya que es la universidad en la que tengo asegurado estudiar. Planeo seguir mejorando mi nivel de programación en la carrera de Ingeniería de Sistemas en la Universidad Peruana de Ciencias Aplicadas.
+            </div>
+        </div>
+    </section>
+
+     <!-- Sección Idiomas -->
+     <section class="idiomas-ps">
+        <div class="idiomas-ps-text">
+            <div class="idiomas-ps-title">Idiomas:</div>
+            <div class="idiomas-ps-description">
+                Actualmente, diría que sé dos idiomas, pero solo tengo el certificado de uno de ellos. Los idiomas que conozco son inglés (nivel intermedio-avanzado) y francés (nivel básico-intermedio). Actualmente solo estudio inglés en el ICPNA y tengo certificados que acreditan mi conocimiento del idioma. Espero que en el futuro pueda estudiar francés, ya que también me apasiona mucho.
+            </div>
+        </div>
+        <img src="/img/ICPNA.jpg" alt="Imagen de Productos" class="idiomas-ps-image" />
+    </section>   
+    <%- include('partials/footer') %>
+</body>
+</html>
