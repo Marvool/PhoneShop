@@ -194,8 +194,8 @@ footer {
     width: 25px;
   }
   
-  /* Sección Zona Gamer */
-  .zona-gamer {
+  /* Sección Zona arriba */
+  .zona-arriba {
     text-align: center;
     margin-top: 5px;
     padding: 20px;
@@ -219,7 +219,7 @@ footer {
 }
 
   
-  .gamer-grid {
+  .arriba-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
@@ -228,7 +228,7 @@ footer {
     margin: 0 auto;
   }
   
-  .gamer-item {
+  .arribar-item {
     background-color: #1a1a1a;
     border-radius: 8px;
     overflow: hidden;
@@ -242,19 +242,19 @@ footer {
     position: relative;
   }
   
-  .gamer-item:hover {
+  .arriba-item:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
     background-color: #333333;
   }
   
-  .gamer-item img {
+  .arribar-item img {
     width: 100%;
     height: 180px;
     object-fit: cover;
   }
   
-  .gamer-item h3 {
+  .arriba-item h3 {
     font-size: 1.5em;
     font-weight: bold;
     color: #44c9eb;
@@ -265,7 +265,7 @@ footer {
     margin: 0;
   }
   
-  .gamer-item p {
+  .arriba-item p {
     font-size: 1.2em;
     color: #44c9eb;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
