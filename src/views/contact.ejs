@@ -3,12 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= title %></title>
+    <title>Mi Perfil</title>
     <link rel="stylesheet" href="/css/main.css"/>
 </head>
 <body>
-    <%- include('partials/navigation') %>
-    <h1>antonioaaron0408@gmail.com</h1>
-    <%- include('partials/footer') %>
+    <%- include('partials/navigation') %>
+    
+    <div class="contact-section">
+        <h1>Contacto</h1>
+        
+        <!-- Correo Electrónico -->
+        <div class="contact-container">
+            <h1>Correo Electrónico</h1>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=antonioaaron0408@gmail.com">
+                <img src="img/email-icon.svg" alt="Correo" class="contact-icon">
+            </a>
+            <h2>antonioaaron0408@gmail.com</h2>
+        </div>
+
+        <!-- TikTok -->
+        <div class="contact-container">
+            <h1>Mi TikTok</h1>
+            <a href="https://www.tiktok.com/@marvoll_ewe">
+                <img src="img/tiktok-line.svg" alt="TikTok" class="contact-icon">
+            </a>
+            <h2>@marvoll_ewe</h2>
+        </div>
+
+        <!-- WhatsApp -->
+        <div class="contact-container">
+            <h1>Mi WhatsApp</h1>
+            <a href="https://wa.me/+51962024734" target="_blank">
+                <img src="img/whatsapp-line.svg" alt="WhatsApp" class="contact-icon">
+            </a>
+            <h2>962024734</h2>
+        </div>
+
+        <!-- LinkedIn -->
+        <div class="contact-container">
+            <h1>Mi LinkedIn</h1>
+            <a href="https://www.linkedin.com/in/antonio-aaron-sabas-saenz-8581a5327/">
+                <img src="img/linkedin-icon.svg" alt="LinkedIn" class="contact-icon">
+            </a>
+            <h2>Antonio Aaron Sabas Saenz</h2>
+        </div>
+
+        <!-- GitHub -->
+        <div class="contact-container">
+            <h1>Mi GitHub</h1>
+            <a href="https://github.com/Marvool" target="_blank">
+                <img src="img/github-fill.svg" alt="GitHub" class="contact-icon">
+            </a>
+            <h2>962024734</h2>
+        </div>
+    </div>
+    
+    <%- include('partials/footer') %>
 </body>
 </html>

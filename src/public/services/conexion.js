@@ -13,11 +13,13 @@ const config={
 }
 
 export async function Conectar(params) {
-    const cliente= new Client(config)
+    const cliente= new Client(config);
     try{
         await cliente.connect()
-        console.log("Conectado a la base de datos :D")
+        console.log("Conectado a la base de datos :D");
     }catch(error){
-        console.log(error)
+        console.error("Error al conectar con la base de datos D:", error);
+    }finally {
+        await cliente.end();
     }
 }

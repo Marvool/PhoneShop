@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es"> <!-- Cambié el idioma a español -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,28 +9,27 @@
 </head>
 <body>
     <!-- Navegación -->
-    <%- include('partials/navigation') %>
-    <!-- Sobre Mi -->
-    <section class="about-me">
-        <div class="breadcrumb">
-        </div>
+    <%- include('partials/navigation') %>
+    
+    <!-- Sección principal -->
+    <header class="about-me">
         <h1>Mi historia</h1>
-    </section>
+    </header>
     
     <!-- Sección Historia -->
-    <section class="about-mee">
+    <section class="about-me">
         <div class="about-text">
             <div class="about-title">Sobre Mi:</div>
             <div class="about-description">
-                Buenas, mi nombre es Antonio Aarón Sabas Sáenz, tengo 17 años, y esto es un poco sobre cómo soy y mi historia. Lo primero que puedo decir es que me siento orgulloso de mí mismo, ya que aún soy estudiante del colegio San Andrés y ya he aprendido mucho sobre programación (gracias a mi profe Leonardo Palomino). Espero que en el futuro pueda seguir estudiando y aprendiendo más sobre programación en la universidad y con el entorno que me rodea, es decir, con mis amistades.
+                Buenas, mi nombre es Antonio Aaron Sabas Saenz, tengo 17 años, y esto es un poco sobre cómo soy y mi historia. Lo primero que puedo decir es que me siento orgulloso de mí mismo, ya que aún soy estudiante del colegio San Andrés y ya he aprendido mucho sobre programación (gracias a mi profe Leonardo Palomino). Espero que en el futuro pueda seguir estudiando y aprendiendo más sobre programación en la universidad y con el entorno que me rodea, es decir, con mis amistades.
             </div>
         </div>
-        <img src="/img/myface.jpg" alt="Imagen de Compromiso" class="about-image" />
+        <img src="/img/myface.jpg" alt="Foto de Antonio Aarón" class="about-image" />
     </section>
 
     <!-- Sección Estudios -->
     <section class="studies-com">
-        <img src="/img/upc.jpg" alt="Imagen de Historia" class="studies-image" />
+        <img src="/img/upc.jpg" alt="Logo de la Universidad Peruana de Ciencias Aplicadas" class="studies-image" />
         <div class="studies-text">
             <div class="studies-title">Estudios:</div>
             <div class="studies-description">
@@ -39,16 +38,17 @@
         </div>
     </section>
 
-     <!-- Sección Idiomas -->
-     <section class="idiomas-ps">
+    <!-- Sección Idiomas -->
+    <section class="idiomas-ps">
         <div class="idiomas-ps-text">
             <div class="idiomas-ps-title">Idiomas:</div>
             <div class="idiomas-ps-description">
                 Actualmente, diría que sé dos idiomas, pero solo tengo el certificado de uno de ellos. Los idiomas que conozco son inglés (nivel intermedio-avanzado) y francés (nivel básico-intermedio). Actualmente solo estudio inglés en el ICPNA y tengo certificados que acreditan mi conocimiento del idioma. Espero que en el futuro pueda estudiar francés, ya que también me apasiona mucho.
             </div>
         </div>
-        <img src="/img/ICPNA.jpg" alt="Imagen de Productos" class="idiomas-ps-image" />
-    </section>   
-    <%- include('partials/footer') %>
+        <img src="/img/ICPNA.jpg" alt="Logo del ICPNA" class="idiomas-ps-image" />
+    </section>
+
+    <%- include('partials/footer') %>
 </body>
 </html>

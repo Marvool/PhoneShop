@@ -5,11 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= title %></title>
     <link rel="stylesheet" href="/css/index.css"/>
+    <link rql="stylesheet" href="/css/main.css"/>
 </head>
 <body>
     <%- include('partials/navigation') %>
-    <h2>Hola</h2>
-    <p>Soy Antonio</p>
+    <section class="hero">
+        <h1>¡Bienvenido a mi mundo!</h1>
+        <p>Soy Antonio Aaron Sabas Saenz, un estudiante apasionado por la programación y el aprendizaje continuo.</p>
+        <img src="/img/myface2.png" alt="" class="hero-image" />
+        <h2>Mis Habilidades</h2>
+        <ul class="skills-list">
+            <li>Programación JavaScript</li>
+            <h1> </h1>
+            <li>Desarrollo web con HTML y CSS</li>
+            <h1> </h1>
+            <li>Trabajo en equipo y colaboración</li>
+            <h1> </h1>
+        </ul>
+    </section>
     <%- include('partials/footer') %>
 </body>
 </html>
