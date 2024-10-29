@@ -2,10 +2,10 @@ import pg from "pg";
 const {Client}= pg;
 
 const config={
-    user: 'curriculumweb_db_user',
-    host: 'dpg-csfst908fa8c73a49an0-a.oregon-postgres.render.com',
-    database: 'curriculumweb_db',
-    password: 'uF2HDJCL09irtzVoRe8I1fORrbas2oV8',
+    user: 'curriculum_web_user',
+    host: 'dpg-csg41208fa8c73fqo28g-a.oregon-postgres.render.com',
+    database: 'curriculum_web',
+    password: 'NjMmfiGeaDgUTyFhVu50tp4vGkbdQJmy',
     port: 5432,
     ssl:{
         rejectUnauthorized: false
