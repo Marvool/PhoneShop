@@ -3,13 +3,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #44c9eb;
+    color: #c0c0c0;
     background-color: #111;
 }
 
 /* Navegación */
 nav {
-    background-color: #222;
+    background-color: #ffffff;
     padding: 15px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     position: sticky;
@@ -30,7 +30,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #44c9eb;
+    color: #c0c0c0;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #44c9eb;
+    color: #c0c0c0;
     transform: scale(1.1);
 }
 
@@ -46,7 +46,7 @@ nav ul li a:hover {
 .about-title, .studies-title, .idiomas-ps-title {
     font-size: 2em;
     font-weight: 700;
-    color: #44c9eb;
+    color: #c0c0c0;
     margin-bottom: 20px;
     text-align: left;
 }
@@ -60,7 +60,7 @@ nav ul li a:hover {
     max-width: 1400px;
     margin: 40px auto;
     border-radius: 12px;
-    background: linear-gradient(135deg, #333333, #000000);
+    background: linear-gradient(135deg, #0044ff15, #4164ff27);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -89,7 +89,7 @@ nav ul li a:hover {
     font-size: 1.1em;
     line-height: 1.8;
     font-weight: 300;
-    color: #44c9eb;
+    color: #c0c0c0;
     max-width: 800px;
     margin: 20px;
     text-align: justify;
@@ -97,5 +97,29 @@ nav ul li a:hover {
 }
 
 .about-description:hover, .studies-description:hover, .idiomas-ps-description:hover {
-    color: #66aabb;
+    color: #ffffff;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #c0c0c0; /* Color dorado */
+    margin-top: 10px; /* Espacio con respecto a la descripción */
+    display: inline-block;
+}
+
+.about-me, .studies-com, .idiomas-ps {
+    position: relative;
+    padding: 20px;
+    background-color: #0b1741; /* Fondo oscuro */
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text, .studies-text, .idiomas-ps-text {
+    position: relative;
+    width: 60%;
 }

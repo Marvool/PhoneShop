@@ -2,14 +2,15 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #0a0f2c; /* Azul oscuro */
+    color: #d1d1d1; /* Plateado */
 }
 
 .navbar {
-    background-color: #222;
-    color: #44c9eb;
+    background-color: #10163a; /* Azul más oscuro para la barra */
+    color: #c0c0c0; /* Plateado */
     padding: 10px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -28,7 +29,7 @@ body, html {
 
 .navbar-logo a {
     text-decoration: none;
-    color: #44c9eb;
+    color: #c0c0c0;
     font-size: 28px;
     font-weight: bold;
 }
@@ -45,7 +46,7 @@ body, html {
 
 .navbar-menu li a {
     text-decoration: none;
-    color: #44c9eb;
+    color: #c0c0c0;
     font-size: 16px;
     padding: 8px 10px;
     transition: background 0.3s, color 0.3s;
@@ -53,8 +54,8 @@ body, html {
 }
 
 .navbar-menu li a:hover {
-    background-color: #555;
-    color: #44c9eb;
+    background-color: #1a1f4a; /* Azul oscuro más intenso */
+    color: #ffffff;
 }
 
 .navbar-icons {
@@ -64,14 +65,14 @@ body, html {
 }
 
 .navbar-icons a {
-    color: #44c9eb;
+    color: #c0c0c0;
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s;
 }
 
 .navbar-icons a:hover {
-    color: #44c9eb;
+    color: #c0c0c0;
 }
 
 .navbar-toggle {
@@ -83,7 +84,7 @@ body, html {
 .navbar-toggle .bar {
     width: 25px;
     height: 3px;
-    background-color: #44c9eb;
+    background-color: #c0c0c0;
     margin: 3px 0;
     transition: transform 0.3s;
 }
@@ -92,7 +93,7 @@ body, html {
     .navbar-menu {
         display: none;
         flex-direction: column;
-        background-color: #222;
+        background-color: #ffffff;
         position: absolute;
         top: 60px;
         right: 0;
@@ -150,7 +151,7 @@ body, html {
 }
 
 .dropdown-menu ul li a {
-    color: #44c9eb;
+    color: #c0c0c0;
     text-decoration: none;
     font-size: 16px;
     display: block;
@@ -158,7 +159,7 @@ body, html {
 
 .dropdown-menu ul li a:hover {
     background-color: #555;
-    color: #44c9eb;
+    color: #c0c0c0;
 }
 
 /* Mostrar el menú al hacer hover */
@@ -169,13 +170,13 @@ body, html {
 /*Footer*/
 
 footer {
-    background: linear-gradient(to bottom, #333333, #111111);
-    color: #44c9eb; /* Color dorado claro */
+    background: linear-gradient(to bottom, #10163a, #080c26);
+    color: #c0c0c0;
     text-align: center;
     padding: 10px 0;
     width: 100%;
     margin-top: auto;
-  }
+}
   
   .footer p {
     margin: 10px 0;
@@ -187,7 +188,7 @@ footer {
   
   .footer .social-icons a {
     margin: 0 10px;
-    color: #44c9eb;
+    color: #c0c0c0;
   }
   
   .footer .social-icons a img {
@@ -199,12 +200,12 @@ footer {
     text-align: center;
     margin-top: 5px;
     padding: 20px;
-    background-color: #44c9eb;
+    background-color: #c0c0c0;
   }
   
   h4 {
     font-size: 1.5em;
-    color: #44c9eb;
+    color: #c0c0c0;
     margin-bottom: 20px;
     font-weight: bold;
     text-shadow: 
@@ -234,7 +235,7 @@ footer {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
-    color: #44c9eb;
+    color: #c0c0c0;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -257,7 +258,7 @@ footer {
   .arriba-item h3 {
     font-size: 1.5em;
     font-weight: bold;
-    color: #44c9eb;
+    color: #c0c0c0;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 10px;
@@ -267,7 +268,7 @@ footer {
   
   .arriba-item p {
     font-size: 1.2em;
-    color: #44c9eb;
+    color: #c0c0c0;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     position: absolute;
     bottom: 10px;
@@ -283,12 +284,12 @@ footer {
 
 .contact-section h1 {
     font-size: 1.8em;
-    color: #44c9eb;
+    color: #c0c0c0;
     margin-bottom: 10px;
 }
 
 .contact-container {
-    background-color: #ffffff;
+    background-color: #3c28f023;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -298,11 +299,11 @@ footer {
 }
 
 .contact-container h1 {
-    color: #44c9eb;
+    color: #c0c0c0;
 }
 
 .contact-container h2 {
-    color: #44c9eb;
+    color: #c0c0c0;
     font-size: 1.1em;
     margin: 5px 0;
 }
@@ -319,29 +320,29 @@ footer {
 }
 
 .contact-container a {
-    color: #44c9eb;
+    color: #c0c0c0;
     text-decoration: none;
 }
 
 .hero {
     text-align: center;
     padding: 50px;
-    background: linear-gradient(135deg, #333333, #111);
-    color: #44c9eb;
+    background: linear-gradient(135deg, #0a0f2c, #1a1f4a);
+    color: #c0c0c0;
 }
 
 .skills-list {
-    list-style-type: disc;  /* Usa viñetas como puntos */
-    padding: 0;             /* Elimina el padding por defecto */
-    margin: 0;              /* Elimina el margen por defecto */
-    text-align: right;      /* Alinea el texto a la derecha */
-    display: inline-block;  /* Permite centrar la lista horizontalmente */
+    list-style-type: disc;  
+    padding: 0;             
+    margin: 0;             
+    text-align: right;     
+    display: inline-block; 
 }
 
 .skills-list li {
-    margin: 5px 0;         /* Espacio vertical entre los elementos */
-    color: #44c9eb;        /* Color de texto */
-    font-size: 1.1em;      /* Tamaño de fuente */
+    margin: 5px 0;     
+    color: #c0c0c0;     
+    font-size: 1.1em;    
 }
 
 
@@ -362,8 +363,8 @@ footer {
 }
 
 .cta-button {
-    background-color: #44c9eb;
-    color: #fff;
+    background-color: #c0c0c0;
+    color: #0a0f2c;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -373,5 +374,6 @@ footer {
 }
 
 .cta-button:hover {
-    background-color: #66aabb;
+    background-color: #ffffff;
+    color: #0a0f2c;
 }

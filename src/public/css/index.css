@@ -14,13 +14,13 @@
 .skills-list li {
     margin: 5px 0;        
     text-align: left;     
-    color: #44c9eb;  
+    color: #c0c0c0;  
     font-size: 1.1em;     
 }
 
 .cta-button {
-    background-color: #44c9eb;
-    color: #fff;
+    background-color: #c0c0c0;
+    color: #ffffff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -30,5 +30,5 @@
 }
 
 .cta-button:hover {
-    background-color: #44c9eb;
+    background-color: #c0c0c0;
 }
