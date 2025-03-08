@@ -23,7 +23,7 @@ const celulares = {
     xiaomi15u: {
         nombre: "Xiaomi 15 Ultra",
         precio: "$999",
-        imagen: "/img/xiaomi15u.jpg",
+        imagen: "/img/xiaomi15u.webp",
         descripcion: "El Xiaomi 15 Ultra incluye una pantalla AMOLED de 6.7” con 120Hz, Snapdragon 8 Elite y carga rápida de 120W.",
         detalles: [
             "Pantalla: 6.7” AMOLED, 120Hz",
@@ -62,7 +62,7 @@ const celulares = {
     honormagic7: {
         nombre: "Honor Magic 7 Pro",
         precio: "$1,099",
-        imagen: "/img/honormagic7.jpg",
+        imagen: "/img/honormagic7.webp",
         descripcion: "El Honor Magic 7 Pro cuenta con pantalla OLED de 6.78”, procesador Snapdragon 8 Gen 4 y batería de 5200mAh con carga rápida.",
         detalles: [
             "Pantalla: 6.78” OLED, 120Hz",
@@ -75,7 +75,7 @@ const celulares = {
     redmagic10: {
         nombre: "Redmagic 10 Pro",
         precio: "$1,199",
-        imagen: "/img/redmagic10.jpg",
+        imagen: "/img/redmagic10.jpeg",
         descripcion: "El Redmagic 10 Pro es un smartphone gamer con pantalla AMOLED de 6.9” y tasa de refresco de 165Hz.",
         detalles: [
             "Pantalla: 6.9” AMOLED, 165Hz",
