@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= title %></title>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     <link rel="stylesheet" href="/css/index.css"/>
     <link rql="stylesheet" href="/css/main.css"/>
 </head>
@@ -23,6 +24,14 @@
             <h1> </h1>
         </ul>
     </section>
+
+    <df-messenger
+    intent="WELCOME"
+    chat-title="Antony"
+    agent-id="651ef59c-1210-45c6-ba18-03ed0e57822f"
+    language-code="es"
+  ></df-messenger>
+  
     <%- include('partials/footer') %>
 </body>
 </html>

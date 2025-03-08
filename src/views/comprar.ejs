@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="/css/comprar.css"/>
+</head>
+<body>
+    <%- include('partials/navigation') %>
+
+    <main class="container">
+        <section class="product-container">
+            <div class="product-info">
+                <img src="<%= imagen %>" alt="Imagen de <%= nombre %>" class="product-image">
+                <h2 class="product-name"><%= nombre %></h2>
+                <p class="price">Precio: <strong>S/. <%= precio %></strong></p>
+                <p class="stock disponible">Stock: Disponible</p>
+                <a href="https://wa.me/51962024734?text=Hola,%20quiero%20comprar%20el%20<%= nombre %>%20por%20S/.<%= precio %>." 
+                   class="buy-button" 
+                   target="_blank">
+                   Comprar ahora
+                </a>
+            </div>
+
+            <div class="product-details">
+                <h2>Características principales</h2>
+                <p class="description"><%- descripcion %></p>
+
+                <% if (detalles && detalles.length > 0) { %>
+                    <h3>Especificaciones:</h3>
+                    <ul class="features-list">
+                        <% detalles.forEach(detalle => { %>
+                            <li><%= detalle %></li>
+                        <% }) %>
+                    </ul>
+                <% } %>
+            </div>
+        </section>
+    </main>
+
+    <%- include('partials/footer') %>
+    
+</body>
+</html>

@@ -377,3 +377,12 @@ footer {
     background-color: #ffffff;
     color: #0a0f2c;
 }
+
+df-messenger {
+    --df-messenger-bot-message: #55a7ff;
+    --df-messenger-button-titlebar-color: #0056b3;
+    --df-messenger-chat-background: #f8f9fa;
+    --df-messenger-font-color: #000000;
+    --df-messenger-send-icon: #207adb;
+  }
+  

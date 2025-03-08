@@ -32,3 +32,12 @@
 .cta-button:hover {
     background-color: #c0c0c0;
 }
+
+df-messenger {
+    --df-messenger-bot-message: #007bff;
+    --df-messenger-button-titlebar-color: #0056b3;
+    --df-messenger-chat-background: #f8f9fa;
+    --df-messenger-font-color: #333;
+    --df-messenger-send-icon: #0056b3;
+  }
+  
